@@ -8,6 +8,9 @@ function About() {
       <header>
         <Navbar />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
