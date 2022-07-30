@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./pages/App";
+import Blogs from "./pages/Blogs";
+import About from "./pages/About";
 import reportWebVitals from "./reportWebVitals";
 // import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,6 +13,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>
 );

@@ -9,15 +9,15 @@ function Navbar() {
     <nav className="navbar">
       <img className="logo" src={RTFSD} alt="logo" />
       <div className="navbar-wrapper">
-        <a href="#" className="navbar-item">
+        <Link to="/" className="navbar-item">
           Work
-        </a>
+        </Link>
         <Link to="/blogs" className="navbar-item">
           Blog
         </Link>
-        <a href="#" className="navbar-item">
+        <Link to="/about" className="navbar-item">
           About
-        </a>
+        </Link>
       </div>
     </nav>
   );
